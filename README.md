@@ -15,11 +15,10 @@ RootStay is a full-stack web application inspired by Airbnb, designed to allow u
 
 ## 🛠 Tech Stack
 
-- *Frontend*: React, Tailwind CSS
+- *Frontend*: HTML, CSS
 - *Backend*: Express.js, Node.js
 - *Database*: MongoDB with Mongoose
-- *Authentication*: JWT, bcrypt
-- *Templating (optional)*: EJS
+- *Templating* : EJS
 
 ---
 
