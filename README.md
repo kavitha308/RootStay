@@ -1,6 +1,6 @@
 # 🏡 RootStay
 
-RootStay is a full-stack web application inspired by Airbnb, designed to allow users to browse, book, and manage property listings. Built using the *MERN stack* (MongoDB, Express, React, Node.js), the app features dynamic routing, secure authentication, and responsive UI components.
+RootStay is a full-stack web application inspired by Airbnb, designed to allow users to browse, book, and manage property listings.The app features dynamic routing, authentication, and responsive UI components.
 
 ---
 
