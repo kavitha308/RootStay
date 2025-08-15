@@ -1,0 +1,40 @@
+<% layout("../layouts/boilerplate") %>
+<body>
+    <h3 class="heading-create-page">Add a new Listing</h3>
+    <form method = "POST" action  = "/listings" class = "container mt-5" class = "row justify-content-center">
+        <!-- <div class = "col-md-6 card p-4 shadow"> -->
+     <div class="col-md-6 card p-4 shadow-grey-all forms"  >
+        <div class = "mb-3">
+        <label htmlfor = "title" name = "title" class="form-label">Title : </label>
+        <input placeholder="Enter title" id = "title" name ="listing[title]" class="form-control">
+        </div>
+        <div class = "mb-3">
+         <label htmlfor = "description" name = "description" class="form-label">Description : </label>
+       <textarea placeholder="Enter description" id="description" name="listing[description]" class="form-control"></textarea>
+
+        <div class = "row">
+            <div class = "mb-3 col-4">
+         <label htmlfor = "price" name = "price" class="form-label">Price : </label>
+        <input placeholder="Enter price" id = "price" name = "listing[price]" class="form-control">
+        </div>
+         <div class = "mb-3 col-8">
+         <label htmlfor = "country" name = "country" class="form-label">Country : </label>
+        <input placeholder="Enter country" id = "country" name = "listing[country]" class="form-control">
+        </div>
+        </div>
+        <div class = "mb-3">
+         <label htmlfor = "location" name = "location" class="form-label">Location : </label>
+        <input placeholder="Enter location" id = "location" name = "listing[location]" class="form-control">
+        </div>
+        
+         <label htmlfor = "image" name = "image" class="form-label">Imageurl : </label>
+        <input placeholder="Enter imageURL" id = "image" name = "listing[image][url]" class="form-control">
+        <br>
+        <br> 
+
+        <button class = "btn btn-dark btn-col" >Submit</button>
+        </div>
+    </form>
+    <br>
+</body>
+</html>
